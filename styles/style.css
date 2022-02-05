@@ -1,38 +1,37 @@
+html{
+  font-family: 'Press Start 2P', cursive;
+}
+
 body {
   padding: 0;
   text-align: center;
 }
 
-.game-intro {
-  float: left;
-  padding: 0% 10%;
-}
-
-.game-intro p {
-  font-size: 18px;
-  font-family: "Verdana"
-}
-
-.logo-img {
-  width: 350px;
-}
-
-.arrows-img {
-  width: 150px;
-}
-
 body button {
   font-size: 30px;
-  background-color: #870007;
-  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: green;
   padding: 20px 40px;
   border: 0;
   box-shadow: 0;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
 }
 
-#game-board {
-    float: left;
-    padding: 20px 0px;
+#game-over{
+  color: green;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+}
+
+
+#canvas {
+  border-radius: 5px;
+  background-color: black;
 }
