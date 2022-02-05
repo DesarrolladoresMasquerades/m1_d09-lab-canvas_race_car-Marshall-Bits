@@ -16,7 +16,18 @@ body button {
   border: 0;
   box-shadow: 0;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
+}
+
+#game-over{
+  color: green;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
 }
 
 
